@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 import ItemRouter from './route/inventory.route.js';
 dotenv.config();
 const corsOptions = {
-  origin: 'http://localhost:3000', // Your frontend URL
+  origin: 'https://inventory-managementusingredux-toolkit.onrender.com', // Your frontend URL
   credentials: true,               // Allow cookies to be sent
   methods: ['GET', 'POST', 'PUT','DELETE','PATCH', 'OPTIONS'], // Allowed HTTP methods
   allowedHeaders: ['Content-Type','Authorization'],     // Allowed headers
