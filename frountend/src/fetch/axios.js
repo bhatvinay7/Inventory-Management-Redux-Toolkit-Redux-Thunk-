@@ -1,5 +1,5 @@
 import axios from 'axios';
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3006',
+    baseURL: 'https://inventorymanagementredux-reduxtoolkit.onrender.com',
 });
 export default axiosInstance;
